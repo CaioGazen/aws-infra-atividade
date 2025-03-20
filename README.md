@@ -82,24 +82,21 @@ sudo docker-compose -f compose.rds.yml up -d
 ## ✅ Evidências (prints)  
 
 ### Security Groups  
-![EC2 Security Group](caminho/para/print-ec2-sg.png)  
-![RDS Security Group](caminho/para/print-rds-sg.png)  
+![EC2 Security Group](prints/ec2-sg.png)  
+![RDS Security Group](prints/rds-sg.png)  
 
 ### Instância EC2  
-![Instância EC2](caminho/para/print-ec2.png)  
+![Instância EC2](prints/ec2.png)  
 
 ### Banco RDS  
-![RDS](caminho/para/print-rds.png)  
+![RDS](prints/rds.png)  
+![RDS](prints/rds2.png)
 
 ---
 
 ## ✅ Demonstração em vídeo  
 O vídeo gravado mostra:  
 - Acesso SSH à EC2;  
-- Clonagem do repositório;  
-- Configuração do `.env`;  
-- Alteração do compose.rds.yml;  
-- Inicialização do ambiente Docker;  
 - Conexão bem-sucedida ao banco RDS.  
 
 O vídeo foi enviado via Google Classroom.  
@@ -111,14 +108,12 @@ O vídeo foi enviado via Google Classroom.
 aws-infra-atividade/
 │
 ├── prints/
-│   ├── print-ec2-sg.png
-│   ├── print-rds-sg.png
-│   ├── print-ec2.png
-│   └── print-rds.png
-├── compose.rds.yml
-├── .env (não versionado)
+│   ├── ec2-sg.png
+│   ├── rds-sg.png
+│   ├── ec2.png
+|   ├── rds.png
+│   └── rds2.png
 ├── README.md
-└── (opcional) user-data.sh
 ```  
 
 ---
